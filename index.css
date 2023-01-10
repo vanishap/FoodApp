@@ -1,0 +1,40 @@
+.title-bar {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    background-color:ivory;
+    justify-content: space-between;
+}
+
+.title-bar ul li {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 5px;
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+    border-radius: 2px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+
+.btn {
+    margin: 10px
+}
+.card{
+    border: 0.02rem solid lightblue;
+    width:12rem;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;;
+}
