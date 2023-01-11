@@ -4,7 +4,7 @@
     border: 1px solid grey;
     border-radius: 5px;
     padding: 5px;
-    background-color:ivory;
+    background-color: ivory;
     justify-content: space-between;
 }
 
@@ -30,11 +30,13 @@
 .btn {
     margin: 10px
 }
-.card{
+
+.card {
     border: 0.02rem solid lightblue;
-    width:12rem;
+    width: 12rem;
     text-align: center;
     align-items: center;
     padding: 10px;
-    margin: 10px;;
+    margin: 10px;
+    ;
 }
