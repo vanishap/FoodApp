@@ -33,10 +33,33 @@
 
 .card {
     border: 0.02rem solid lightblue;
-    width: 12rem;
+    width: 15rem;
     text-align: center;
     align-items: center;
     padding: 10px;
     margin: 10px;
-    ;
+}
+.card-title{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: darksalmon;
+}
+.card-cuisines{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkkhaki;
+    font-weight: lighter;
+}
+.card-discount{
+    color:dodgerblue;
+}
+.card-rating{
+    color:darkgreen;
+}
+
+.shimmer-card{
+    border: 0.02rem solid lightblue;
+    width: 15rem;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
 }
