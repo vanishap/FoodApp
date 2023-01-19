@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {FaRegStar} from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 import { cloudImg } from '../config';
 import Shimmer from './Shimmer'
 
@@ -36,7 +37,6 @@ const Body = () => {
   async function getRestaurants(){
     const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4016307&lng=78.40060079999999&page_type=DESKTOP_WEB_LISTING");
     const json = await data.json();
-    console.log(json);
     let temp = json?.data?.cards[2]?.data?.data?.cards;
     setAllRestaurants(temp);
     setFilteredRestaurants(temp);
@@ -63,13 +63,15 @@ const Body = () => {
         {(filteredRestaurants.length ===0)? <h3>No restaurants matched your search</h3>  :
         filteredRestaurants && filteredRestaurants.map(restaurant =>{
       return (
-        <div className= "card" key={restaurant?.data?.id}>
-          <img  className='image'src={cloudImg +restaurant?.data?.cloudinaryImageId} />
-          <h3 className='card-title'>{restaurant?.data?.name}</h3>
-          <h4 className='card-cuisines'>{restaurant?.data?.cuisines.join(', ')}</h4>
-          <h4 className='card-discount'>{restaurant?.data?.aggregatedDiscountInfo?.shortDescriptionList[0]?.meta}</h4>
-          <h4 className='card-rating'>{restaurant?.data?.avgRating}</h4>
-          <StarRating sCount ={restaurant?.data?.avgRating} count={5}/>
+        <div className= "card" >
+          <Link to={"/restaurant/" + restaurant?.data?.id} key={restaurant?.data?.id}>
+            <img className='image'src={cloudImg +restaurant?.data?.cloudinaryImageId} />
+            <h3 className='card-title'>{restaurant?.data?.name}</h3>
+            <h4 className='card-cuisines'>{restaurant?.data?.cuisines.join(', ')}</h4>
+            <h4 className='card-discount'>{restaurant?.data?.aggregatedDiscountInfo?.shortDescriptionList[0]?.meta}</h4>
+            <h4 className='card-rating'>{restaurant?.data?.avgRating}</h4>
+            <StarRating sCount ={restaurant?.data?.avgRating} count={5}/>
+          </Link>
         </div>
       )
     })}
@@ -80,3 +82,4 @@ const Body = () => {
 
 export default Body;
  
+

@@ -56,10 +56,8 @@
 }
 
 .shimmer-card{
-    border: 0.02rem solid lightblue;
+    background: lightgrey;
     width: 15rem;
-    text-align: center;
-    align-items: center;
-    padding: 10px;
-    margin: 10px;
+    height:15rem;
+    margin: 10px; 
 }
