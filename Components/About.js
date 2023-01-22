@@ -1,3 +1,5 @@
+import { Outlet } from "react-router-dom";
+
 const About = ()=>{
     return (
         <div>
@@ -6,6 +8,7 @@ const About = ()=>{
                 the globe at your doorstep. 
                 Visit us and experience the taste of delicious food.
             </p>
+            <Outlet />
         </div>
     )
 }
