@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {lazy, Suspense} from 'react';
 import ReactDOM from "react-dom/client";
 import Body from './Components/Body';
 import Footer from './Components/Footer';
@@ -9,6 +9,11 @@ import Contact from './Components/Contact';
 import Error from './Components/Error';
 import RestaurantPage from './Components/RestaurantPage';
 import Profile from './Components/Profile';
+import Cart from './Components/Cart';
+import Shimmer from './Components/Shimmer';
+
+// lazy loading
+const Offers = lazy(()=>import("./Components/Offers"))
 
 const Header =()=>{
     return <>
@@ -42,8 +47,18 @@ const appRouter = createBrowserRouter([
         element: <Contact />
         },
         {
+            path:'/cart',
+            element:<Cart />
+        },
+        {
         path:"/restaurant/:id",
         element: <RestaurantPage />
+        },
+        {
+            path:"/offers",
+            element:<Suspense fallback={<Shimmer/>}>
+                        <Offers />
+                    </Suspense>
         }
         ]
     }   

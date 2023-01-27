@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import {FaRegStar} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import { cloudImg } from '../config';
+import { CLOUD_IMG_URL } from '../config';
 import Shimmer from './Shimmer'
+import { filterData } from '../utils/helper';
+import useOnline from '../utils/useOnline';
+import useRestaurants from '../utils/useRestaurants';
 
-const filterData = (searchValue,allRestaurants)=>{
-  return  allRestaurants.filter(restaurant=>restaurant?.data?.name.toLowerCase().includes(searchValue.toLowerCase())); 
-}
 
 const Star =(props)=>{
    const [select, setSelect] = useState(false);
@@ -25,21 +25,16 @@ const StarRating =(props)=>{
     </> 
    )
 }
+
 const Body = () => {
   const [searchValue,setSearchValue] = useState();
-  const [allRestaurants, setAllRestaurants] = useState([]);
-  const [filteredRestaurants, setFilteredRestaurants] = useState([]);
   
-  useEffect(()=>{
-    getRestaurants();
-  },[]);
- 
-  async function getRestaurants(){
-    const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4016307&lng=78.40060079999999&page_type=DESKTOP_WEB_LISTING");
-    const json = await data.json();
-    let temp = json?.data?.cards[2]?.data?.data?.cards;
-    setAllRestaurants(temp);
-    setFilteredRestaurants(temp);
+  const allRestaurants = useRestaurants([]);
+  const filteredRestaurants = useRestaurants([]);
+
+ const isOnline = useOnline();
+  if(!isOnline){
+    return <h3>🔴You are offline!, please check your internet connection!</h3>
   }
 
   // if no restaurants available, early return
@@ -60,12 +55,12 @@ const Body = () => {
         Search
         </button>
       <div className="list"  > 
-        {(filteredRestaurants.length ===0)? <h3>No restaurants matched your search</h3>  :
+        {(filteredRestaurants.length ===0)? <h6>Loading....</h6> : //<h3>No restaurants matched your search</h3>//  
         filteredRestaurants && filteredRestaurants.map(restaurant =>{
       return (
         <div className= "card" >
           <Link to={"/restaurant/" + restaurant?.data?.id} key={restaurant?.data?.id}>
-            <img className='image'src={cloudImg +restaurant?.data?.cloudinaryImageId} />
+            <img className='image'src={CLOUD_IMG_URL +restaurant?.data?.cloudinaryImageId} />
             <h3 className='card-title'>{restaurant?.data?.name}</h3>
             <h4 className='card-cuisines'>{restaurant?.data?.cuisines.join(', ')}</h4>
             <h4 className='card-discount'>{restaurant?.data?.aggregatedDiscountInfo?.shortDescriptionList[0]?.meta}</h4>
