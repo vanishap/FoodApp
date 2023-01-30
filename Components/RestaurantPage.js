@@ -14,18 +14,21 @@ console.log(CLOUD_IMG_URL);
     }
     return (
         <div>
-            <div>
+            <div className="m-4">
                 <h1>Restaurant id: {id} </h1> 
-                <h4>{ restaurant?.name}</h4>
-                <img src= {CLOUD_IMG_URL + restaurant?.cloudinaryImageId}/>
-                 <h4>{ restaurant?.cuisines?.join(', ')}</h4> 
-                <h4>{restaurant?.city}</h4>
+                <h4 className="font-bold">{ restaurant?.name}</h4>
+                <img className="rounded" src= {CLOUD_IMG_URL + restaurant?.cloudinaryImageId}/>
+                 <h4 className="text-left">{ restaurant?.cuisines?.join(', ')}</h4> 
+                <h4 className="text-left">{restaurant?.city}</h4>
             </div>
-            <div>
-                <h3>Items List</h3>
+            <div className="m-4">
+                <h3>Items List: </h3>
                 <ol>
-                {Object.values(restaurant?.menu?.items).map(e=><li key={e.id}> {e.name} </li>)}
+                    {Object.values(restaurant?.menu?.items)
+                .map(e=><li key={e.id}> {e.name} </li>)}
                 </ol>
+                
+               
             </div>
         </div>
     );

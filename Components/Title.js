@@ -11,21 +11,21 @@ const Title = () => {
   const isOnline = useOnline();
 
   return (
-    <div className='title-bar'>
+    <div className="flex bg-orange-300 rounded p-2 m-4 justify-between" >
        <a href="/">
-        <img className= 'image'src={homefood} alt="logo" />
+        <img className="h-28 p-2 rounded-full"src={homefood} alt="logo" />
       </a>
-      <ul>
-        <Link to="/"><li>Home</li></Link>
-        <Link to="/about"><li>About</li></Link>
-        <Link to="/contact"><li>Contact</li></Link>
-        <Link to="/offers"><li>Offers</li></Link>
-        <Link to="/cart"><li>Cart</li></Link>
+      <ul className='flex py-10 '>
+        <Link to="/"><li className='px-2'>Home</li></Link>
+        <Link to="/about"><li className='px-2'>About</li></Link>
+        <Link to="/contact"><li className='px-2'>Contact</li></Link>
+        <Link to="/offers"><li className='px-2'>Offers</li></Link>
+        <Link to="/cart"><li className='px-2'>Cart</li></Link>
       </ul>
-      <h4>{isOnline ? '🟢' : '🔴'}</h4>
+      <h4 className='px-2 py-10'>{isOnline ? '🟢' : '🔴'}</h4>
       <div>
-        {isLogged ?  <button onClick={()=>setIsLogged(false)}>Logout</button> :
-        <button onClick={()=>setIsLogged(true)}>Login</button>}
+        {isLogged ?  <button className='px-2 py-10' onClick={()=>setIsLogged(false)}>Logout</button> :
+        <button className='px-2 py-10' onClick={()=>setIsLogged(true)}>Login</button>}
       </div>
       
     </div>
