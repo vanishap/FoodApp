@@ -11,10 +11,10 @@ const useRestaurant = (id)=>{
     async function getRestaurantDetails(){
         const data = await fetch(FETCH_MENU_URL + id);
         const json = await data.json();
-        console.log(json);
+         //console.log(json);
         setRestaurant(json.data);
     }
    //should return restaurant details
-    return restaurant;
+    return restaurant ;
 }
 export default useRestaurant;

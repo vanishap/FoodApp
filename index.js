@@ -11,16 +11,21 @@ import RestaurantPage from './Components/RestaurantPage';
 import Profile from './Components/Profile';
 import Cart from './Components/Cart';
 import Shimmer from './Components/Shimmer';
+import { Provider } from 'react-redux';
+import store from './utils/store';
+
 
 // lazy loading
 const Offers = lazy(()=>import("./Components/Offers"))
 
 const Header =()=>{
-    return <>
+    return (
+    <Provider store={store}>
         <Title />
         <Outlet />
         <Footer />
-    </>
+    </Provider>
+    )
 }
 const appRouter = createBrowserRouter([
     {

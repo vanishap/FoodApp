@@ -67,8 +67,8 @@ const Body = () => {
             <h3 className='font-bold text-xl text-center'>{restaurant?.data?.name}</h3>
             <h4 className='text-blue-300 text-center'>{restaurant?.data?.cuisines.join(', ')}</h4>
             <h4 className='text-orange-400 text-center'>{restaurant?.data?.aggregatedDiscountInfo?.shortDescriptionList[0]?.meta}</h4>
-             <h4 className='text-center'>{restaurant?.data?.avgRating}</h4> 
-            <StarRating sCount ={restaurant?.data?.avgRating} count={5}/>
+             <h4 className='text-center'>{restaurant?.data?.avgRating} stars</h4> 
+            {/* <StarRating sCount ={restaurant?.data?.avgRating} count={5}/> */}
           </Link>
         </div>
       )
