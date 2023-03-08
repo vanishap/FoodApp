@@ -22,6 +22,7 @@ const Header =()=>{
     return (
     <Provider store={store}>
         <Title />
+        <h4>Note: This site uses 3rd party APIs which require CORS to see the results. Please enable CORS if it is not enabled</h4>
         <Outlet />
         <Footer />
     </Provider>
