@@ -22,7 +22,9 @@ const Header =()=>{
     return (
     <Provider store={store}>
         <Title />
-        <h4 style={{"text-align" :"center"}}>Note: This site uses 3rd party APIs which require CORS to see the results. Please enable CORS if it is not enabled</h4>
+        <div style={{"text-align":center}}>
+        <h4 >Note: This site uses 3rd party APIs which require CORS to see the results. Please enable CORS if it is not enabled</h4>
+        </div>
         <Outlet />
         <Footer />
     </Provider>
