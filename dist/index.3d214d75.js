@@ -2941,14 +2941,30 @@ const Header = ()=>{
                 lineNumber: 24,
                 columnNumber: 9
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                style: {
+                    textAlign: "center"
+                },
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
+                    children: "Note: This site uses 3rd party APIs which require CORS to see the results. Please enable CORS if it is not enabled"
+                }, void 0, false, {
+                    fileName: "index.js",
+                    lineNumber: 26,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "index.js",
                 lineNumber: 25,
                 columnNumber: 9
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.Outlet), {}, void 0, false, {
+                fileName: "index.js",
+                lineNumber: 28,
+                columnNumber: 9
+            }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _footerDefault.default), {}, void 0, false, {
                 fileName: "index.js",
-                lineNumber: 26,
+                lineNumber: 29,
                 columnNumber: 9
             }, undefined)
         ]
@@ -2964,12 +2980,12 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
         path: "/",
         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Header, {}, void 0, false, {
             fileName: "index.js",
-            lineNumber: 33,
+            lineNumber: 36,
             columnNumber: 17
         }, undefined),
         errorElement: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _errorDefault.default), {}, void 0, false, {
             fileName: "index.js",
-            lineNumber: 34,
+            lineNumber: 37,
             columnNumber: 23
         }, undefined),
         children: [
@@ -2977,7 +2993,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 38,
+                    lineNumber: 41,
                     columnNumber: 18
                 }, undefined)
             },
@@ -2985,7 +3001,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/about",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _aboutDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 42,
+                    lineNumber: 45,
                     columnNumber: 18
                 }, undefined),
                 children: [
@@ -2993,7 +3009,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                         path: "profile",
                         element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _profileDefault.default), {}, void 0, false, {
                             fileName: "index.js",
-                            lineNumber: 46,
+                            lineNumber: 49,
                             columnNumber: 25
                         }, undefined)
                     }
@@ -3003,7 +3019,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/contact",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _contactDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 52,
+                    lineNumber: 55,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3011,7 +3027,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/cart",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _cartDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 56,
+                    lineNumber: 59,
                     columnNumber: 21
                 }, undefined)
             },
@@ -3019,7 +3035,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                 path: "/restaurant/:id",
                 element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantPageDefault.default), {}, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 60,
+                    lineNumber: 63,
                     columnNumber: 18
                 }, undefined)
             },
@@ -3029,12 +3045,12 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
                     fallback: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerDefault.default), {}, void 0, false, void 0, void 0),
                     children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Offers, {}, void 0, false, {
                         fileName: "index.js",
-                        lineNumber: 65,
+                        lineNumber: 68,
                         columnNumber: 25
                     }, undefined)
                 }, void 0, false, {
                     fileName: "index.js",
-                    lineNumber: 64,
+                    lineNumber: 67,
                     columnNumber: 21
                 }, undefined)
             }
@@ -3046,7 +3062,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _reactRouterDom.RouterP
     router: appRouter
 }, void 0, false, {
     fileName: "index.js",
-    lineNumber: 72,
+    lineNumber: 75,
     columnNumber: 13
 }, undefined));
 var _c, _c1;
@@ -3058,7 +3074,7 @@ $RefreshReg$(_c1, "Header");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Components/Body":"17mj0","./Components/Footer":"do5GF","./Components/Title":"j5cii","react-router-dom":"9xmpe","./Components/About":"3jUyK","./Components/Contact":"8L2oC","./Components/Error":"kOU9n","./Components/RestaurantPage":"hQKaC","./Components/Profile":"a8QO7","./Components/Cart":"j429B","./Components/Shimmer":"eUWz6","react-redux":"bdVon","./utils/store":"hkUX0","956c4471546320bc":"F1YxS","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-dom/client":"lOjBx","./Components/Body":"17mj0","./Components/Footer":"do5GF","./Components/Title":"j5cii","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe","./Components/About":"3jUyK","./Components/Contact":"8L2oC","./Components/Error":"kOU9n","./Components/RestaurantPage":"hQKaC","./Components/Profile":"a8QO7","./Components/Cart":"j429B","./Components/Shimmer":"eUWz6","react-redux":"bdVon","./utils/store":"hkUX0","956c4471546320bc":"F1YxS"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("6cb6a1ee2146ffae");
 
@@ -27456,7 +27472,1333 @@ $RefreshReg$(_c2, "Body");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","react-icons/fa":"jZjPM","react-router-dom":"9xmpe","../config":"bSr8D","./Shimmer":"eUWz6","../utils/helper":"9L4Sx","../utils/useOnline":"bc9W5","../utils/useRestaurants":"dCPha","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jZjPM":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../config":"bSr8D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-icons/fa":"jZjPM","react-router-dom":"9xmpe","./Shimmer":"eUWz6","../utils/helper":"9L4Sx","../utils/useOnline":"bc9W5","../utils/useRestaurants":"dCPha"}],"bSr8D":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "CLOUD_IMG_URL", ()=>CLOUD_IMG_URL);
+parcelHelpers.export(exports, "FETCH_MENU_URL", ()=>FETCH_MENU_URL);
+parcelHelpers.export(exports, "ALL_RESTAURANTS_API", ()=>ALL_RESTAURANTS_API);
+parcelHelpers.export(exports, "restaurantsList", ()=>restaurantsList);
+const CLOUD_IMG_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
+const FETCH_MENU_URL = "https://www.swiggy.com/dapi/menu/v4/full?lat=17.4016307&lng=78.40060079999999&menuId=";
+const ALL_RESTAURANTS_API = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4016307&lng=78.40060079999999&page_type=DESKTOP_WEB_LISTING";
+const restaurantsList = [
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "474009",
+                    "name": "HARI DOSA",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "hari-dosa-tolichowki-tolichowki",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "ebg0qtutkmzzbsxkd19z",
+                    "address": "Flat No : 101,201 & 301, H H Heights, H-no : 8-1-297/2/e/1, Falcon Valley colony, shaikpet, Mehdipatnam, Hyderabad 500008",
+                    "locality": "Tolichowki",
+                    "areaName": "Tolichowki",
+                    "costForTwo": "12000",
+                    "costForTwoMessage": "₹120 FOR TWO",
+                    "cuisines": [
+                        "Indian",
+                        "South Indian",
+                        "Street Food",
+                        "Beverages",
+                        "Snacks"
+                    ],
+                    "avgRating": 3.8,
+                    "feeDetails": {
+                        "restaurantId": "474009",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 3500
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 3500,
+                        "title": "Delivery Charge",
+                        "amount": "3500"
+                    },
+                    "avgRatingString": "3.8",
+                    "totalRatingsString": "500+",
+                    "sla": {
+                        "deliveryTime": 24,
+                        "minDeliveryTime": 24,
+                        "maxDeliveryTime": 24,
+                        "lastMileTravel": 1.5,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "24 MINS",
+                        "lastMileTravelString": "1.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "50% off | Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "474009",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
+                        "restaurant_id": "474009",
+                        "query": "South Indian"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "263535",
+                    "name": "SaiRam Ki Bandi",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "sairam-ki-bandi-madhapur-madhapur",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "rmcl7tixfs9owmfw2f8e",
+                    "address": "plot 17, megana towers, ground floor, sbi bank building,madhapur,Hyderabad , Circle No.11",
+                    "locality": "Circle No.11\n(Serilingampally-1)",
+                    "areaName": "Circle No.11\n(Serilingampally  1)",
+                    "costForTwo": "15000",
+                    "costForTwoMessage": "₹150 FOR TWO",
+                    "cuisines": [
+                        "South Indian",
+                        "Juices"
+                    ],
+                    "avgRating": 3.8,
+                    "feeDetails": {
+                        "restaurantId": "263535",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 6300
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 6300,
+                        "title": "Delivery Charge",
+                        "amount": "6300"
+                    },
+                    "avgRatingString": "3.8",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                        "deliveryTime": 30,
+                        "minDeliveryTime": 30,
+                        "maxDeliveryTime": 30,
+                        "lastMileTravel": 6.7,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "30 MINS",
+                        "lastMileTravelString": "6.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "50% off | Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "263535",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
+                        "restaurant_id": "263535",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "95633",
+                    "name": "Rice Bowl",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "rice-bowl-jubliee-hills-jubilee-hills",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "rkes7lgfxlmcdsvwwazv",
+                    "address": "SVM Mall, Rd Number 36, CBI Colony, Jubilee Hills, Hyderabad, Telangana 500033",
+                    "locality": "CBI Colony",
+                    "areaName": "Jubilee Hills",
+                    "costForTwo": "20000",
+                    "costForTwoMessage": "₹200 FOR TWO",
+                    "cuisines": [
+                        "North Indian",
+                        "South Indian"
+                    ],
+                    "avgRating": 4,
+                    "feeDetails": {
+                        "restaurantId": "95633",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 4900
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 4900,
+                        "title": "Delivery Charge",
+                        "amount": "4900"
+                    },
+                    "avgRatingString": "4.0",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                        "deliveryTime": 21,
+                        "minDeliveryTime": 21,
+                        "maxDeliveryTime": 21,
+                        "lastMileTravel": 4.6,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "21 MINS",
+                        "lastMileTravelString": "4.5 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "60% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "60% off | Use TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {
+                        "textExtendedBadges": [
+                            {
+                                "iconId": "guiltfree/GF_Logo_android_3x",
+                                "shortDescription": "options available",
+                                "fontColor": "#7E808C"
+                            }
+                        ]
+                    },
+                    "aggregatedDiscountInfoV2": {
+                        "header": "60% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "95633",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
+                        "restaurant_id": "95633",
+                        "query": "South Indian"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "501592",
+                    "name": "VARALAKSHMI PURE VEG TIFFINS",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "varalakshmi-pure-veg-tiffins-ameerpet-ameerpet",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "iw3lszn5gljakzvu2ins",
+                    "address": "41, East Srinivas Nagar Colony, Srinivasa Nagar, Ameerpet, Hyderabad, Telangana 500038, India",
+                    "locality": "Srinivasa Nagar",
+                    "areaName": "Ameerpet",
+                    "costForTwo": "10000",
+                    "costForTwoMessage": "₹100 FOR TWO",
+                    "cuisines": [
+                        "South Indian"
+                    ],
+                    "avgRating": 3.9,
+                    "feeDetails": {
+                        "restaurantId": "501592",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 7900
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 7900,
+                        "title": "Delivery Charge",
+                        "amount": "7900"
+                    },
+                    "avgRatingString": "3.9",
+                    "totalRatingsString": "100+",
+                    "sla": {
+                        "deliveryTime": 30,
+                        "minDeliveryTime": 30,
+                        "maxDeliveryTime": 30,
+                        "lastMileTravel": 8.7,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "30 MINS",
+                        "lastMileTravelString": "8.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "50% off | Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "501592",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "restaurant_id": "501592",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "358090",
+                    "name": "Muddapappu Avakai.com",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "muddapappu-avakai.com-ameerpet-ameerpet",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "wsh5jrouypz49paiq0p3",
+                    "address": "H No:7-1-100/2/A, Ameerpet, Near Gurudwara, Hyderabad, Circle No. 10(Old MCH Circle-V) Khairatabad, Hyderabad - Central Zone, Telangana - 500016",
+                    "locality": "Ameerpet",
+                    "areaName": "Ameerpet",
+                    "costForTwo": "30000",
+                    "costForTwoMessage": "₹300 FOR TWO",
+                    "cuisines": [
+                        "South Indian",
+                        "Indian",
+                        "Andhra",
+                        "Telangana",
+                        "Beverages"
+                    ],
+                    "avgRating": 4.1,
+                    "feeDetails": {
+                        "restaurantId": "358090",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 7900
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 7900,
+                        "title": "Delivery Charge",
+                        "amount": "7900"
+                    },
+                    "avgRatingString": "4.1",
+                    "totalRatingsString": "100+",
+                    "sla": {
+                        "deliveryTime": 32,
+                        "minDeliveryTime": 32,
+                        "maxDeliveryTime": 32,
+                        "lastMileTravel": 8.7,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "32 MINS",
+                        "lastMileTravelString": "8.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "50% off | Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_5",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "358090",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "restaurant_id": "358090",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "378922",
+                    "name": "Muddapappu Avakaya & More",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "muddapappu-avakai-n-more-gachibowli-gachibowli",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "treixr81lhw9tnpyzphi",
+                    "address": "8-2-95/6/2/4, Rajiv gandhi Nagar, Gachibowli, Hyderabad, Telangana 500032",
+                    "locality": "Rajiv Gandhi Nagar",
+                    "areaName": "Gachibowli",
+                    "costForTwo": "40000",
+                    "costForTwoMessage": "₹400 FOR TWO",
+                    "cuisines": [
+                        "Andhra",
+                        "South Indian",
+                        "Biryani"
+                    ],
+                    "avgRating": 3.8,
+                    "feeDetails": {
+                        "restaurantId": "378922",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 6300
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 6300,
+                        "title": "Delivery Charge",
+                        "amount": "6300"
+                    },
+                    "avgRatingString": "3.8",
+                    "totalRatingsString": "500+",
+                    "sla": {
+                        "deliveryTime": 32,
+                        "minDeliveryTime": 32,
+                        "maxDeliveryTime": 32,
+                        "lastMileTravel": 6.8,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "32 MINS",
+                        "lastMileTravelString": "6.8 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "50% off | Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "378922",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "restaurant_id": "378922",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "227608",
+                    "name": "SRI BALAJI TIFFINS ",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "sri-balaji-tiffin-centre-charminar-charminar",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "otcjnqd8s7cxy1z6qcmf",
+                    "address": "Ayyapa society, H No:1-98/90/2, Madhapur Mega Hills, opposite to Annapurna take away, Guttala Begumpet, Hyderabad, Serlingampally Circle No 20,Hyderabad,Telangana-500081",
+                    "locality": "Guttala Begumpet",
+                    "areaName": "Madhapur",
+                    "costForTwo": "15000",
+                    "costForTwoMessage": "₹150 FOR TWO",
+                    "cuisines": [
+                        "South Indian"
+                    ],
+                    "avgRating": 3.3,
+                    "feeDetails": {
+                        "restaurantId": "227608",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 6300
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 6300,
+                        "title": "Delivery Charge",
+                        "amount": "6300"
+                    },
+                    "avgRatingString": "3.3",
+                    "totalRatingsString": "100+",
+                    "sla": {
+                        "deliveryTime": 35,
+                        "minDeliveryTime": 35,
+                        "maxDeliveryTime": 35,
+                        "lastMileTravel": 6.7,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "35 MINS",
+                        "lastMileTravelString": "6.6 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "50% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "50% off | Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "50% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "50% off up to ₹100 | Use code WELCOME50",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "227608",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
+                        "restaurant_id": "227608",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "146003",
+                    "name": "Andhra Rice Boxes",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "andhra-rice-boxes-na-dummy-inbound-area",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "icmlmukpt5qqrnr8yh9u",
+                    "address": "PNo.823,Road no.45,100 ft road,opposite offline store,Ayyapa Society,khanamet village,Madhapur,Serlingampally Circle No.2,Hyderabad,Telangana,500081",
+                    "locality": "Ayyappa society",
+                    "areaName": "Chanda Naik Nagar",
+                    "costForTwo": "40000",
+                    "costForTwoMessage": "₹400 FOR TWO",
+                    "cuisines": [
+                        "Indian"
+                    ],
+                    "avgRating": 3.3,
+                    "feeDetails": {
+                        "restaurantId": "146003",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 7000
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 7000,
+                        "title": "Delivery Charge",
+                        "amount": "7000"
+                    },
+                    "avgRatingString": "3.3",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                        "deliveryTime": 30,
+                        "minDeliveryTime": 30,
+                        "maxDeliveryTime": 30,
+                        "lastMileTravel": 7.9,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "30 MINS",
+                        "lastMileTravelString": "7.9 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "60% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "60% off | Use TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "60% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "146003",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "restaurant_id": "146003",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
+                    }
+                }
+            }
+        }
+    },
+    {
+        "card": {
+            "card": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                "info": {
+                    "id": "519641",
+                    "name": "SRI ANDHRA PULAV.COM",
+                    "city": "3",
+                    "slugs": {
+                        "restaurant": "sri-andhra-pulav.com-ameerpet-ameerpet",
+                        "city": "hyderabad"
+                    },
+                    "cloudinaryImageId": "unwfy54ezcppqlym9eok",
+                    "address": "H NO 36/3RT 7-1-621/105, SR NAGAR, Khairatabad",
+                    "locality": "Khairatabad",
+                    "areaName": "Ameerpet",
+                    "costForTwo": "30000",
+                    "costForTwoMessage": "₹300 FOR TWO",
+                    "cuisines": [
+                        "Andhra",
+                        "South Indian",
+                        "Biryani",
+                        "Chinese"
+                    ],
+                    "avgRating": 3.9,
+                    "feeDetails": {
+                        "restaurantId": "519641",
+                        "fees": [
+                            {
+                                "name": "BASE_DISTANCE",
+                                "fee": 7900
+                            },
+                            {
+                                "name": "BASE_TIME"
+                            },
+                            {
+                                "name": "ANCILLARY_SURGE_FEE"
+                            }
+                        ],
+                        "totalFee": 7900,
+                        "title": "Delivery Charge",
+                        "amount": "7900"
+                    },
+                    "avgRatingString": "3.9",
+                    "totalRatingsString": "1K+",
+                    "sla": {
+                        "deliveryTime": 32,
+                        "minDeliveryTime": 32,
+                        "maxDeliveryTime": 32,
+                        "lastMileTravel": 8,
+                        "serviceability": "SERVICEABLE",
+                        "rainMode": "RAIN_MODE_NONE",
+                        "slaString": "32 MINS",
+                        "lastMileTravelString": "8.0 km",
+                        "iconType": "ICON_TYPE_EMPTY"
+                    },
+                    "availability": {
+                        "nextCloseMessage": "Closes soon",
+                        "opened": true,
+                        "restaurantClosedMeta": {}
+                    },
+                    "aggregatedDiscountInfo": {
+                        "header": "60% off",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "60% off | Use TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "badges": {},
+                    "aggregatedDiscountInfoV2": {
+                        "header": "60% OFF",
+                        "shortDescriptionList": [
+                            {
+                                "meta": "Use TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ],
+                        "descriptionList": [
+                            {
+                                "meta": "60% off up to ₹120 | Use code TRYNEW",
+                                "discountType": "Percentage",
+                                "operationType": "RESTAURANT"
+                            }
+                        ]
+                    },
+                    "ratingSlab": "RATING_SLAB_4",
+                    "orderabilityCommunication": {
+                        "title": {},
+                        "subTitle": {},
+                        "message": {},
+                        "customIcon": {}
+                    },
+                    "cartOrderabilityNudgeBanner": {
+                        "parameters": {},
+                        "presentation": {}
+                    }
+                },
+                "analytics": {
+                    "screenName": "explore",
+                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
+                    "objectValue": "519641",
+                    "clickObjectName": "click-restaurant"
+                },
+                "ctaWithParams": {
+                    "link": "swiggy://menu",
+                    "type": "DEEPLINK",
+                    "params": {
+                        "source": "SEARCH",
+                        "isSld": "false",
+                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
+                        "restaurant_id": "519641",
+                        "query": "South Indian",
+                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352"
+                    }
+                }
+            }
+        }
+    }
+];
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
+exports.interopDefault = function(a) {
+    return a && a.__esModule ? a : {
+        default: a
+    };
+};
+exports.defineInteropFlag = function(a) {
+    Object.defineProperty(a, "__esModule", {
+        value: true
+    });
+};
+exports.exportAll = function(source, dest) {
+    Object.keys(source).forEach(function(key) {
+        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
+        Object.defineProperty(dest, key, {
+            enumerable: true,
+            get: function() {
+                return source[key];
+            }
+        });
+    });
+    return dest;
+};
+exports.export = function(dest, destName, get) {
+    Object.defineProperty(dest, destName, {
+        enumerable: true,
+        get: get
+    });
+};
+
+},{}],"km3Ru":[function(require,module,exports) {
+"use strict";
+var Refresh = require("9c5971cc28aa46b7");
+function debounce(func, delay) {
+    var args;
+    {
+        let timeout = undefined;
+        let lastTime = 0;
+        return function(args) {
+            // Call immediately if last call was more than the delay ago.
+            // Otherwise, set a timeout. This means the first call is fast
+            // (for the common case of a single update), and subsequent updates
+            // are batched.
+            let now = Date.now();
+            if (now - lastTime > delay) {
+                lastTime = now;
+                func.call(null, args);
+            } else {
+                clearTimeout(timeout);
+                timeout = setTimeout(function() {
+                    timeout = undefined;
+                    lastTime = Date.now();
+                    func.call(null, args);
+                }, delay);
+            }
+        };
+    }
+}
+var enqueueUpdate = debounce(function() {
+    Refresh.performReactRefresh();
+}, 30); // Everthing below is either adapted or copied from
+// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
+// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
+module.exports.prelude = function(module1) {
+    window.$RefreshReg$ = function(type, id) {
+        Refresh.register(type, module1.id + " " + id);
+    };
+    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
+};
+module.exports.postlude = function(module1) {
+    if (isReactRefreshBoundary(module1.exports)) {
+        registerExportsForReactRefresh(module1);
+        if (module1.hot) {
+            module1.hot.dispose(function(data) {
+                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
+                data.prevExports = module1.exports;
+            });
+            module1.hot.accept(function(getParents) {
+                var prevExports = module1.hot.data.prevExports;
+                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
+                // that the new exports make it ineligible for being a boundary.
+                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
+                // with the previous exports.
+                // For example, if you add/remove/change exports, we'll want
+                // to re-execute the importing modules, and force those components
+                // to re-render. Similarly, if you convert a class component
+                // to a function, we want to invalidate the boundary.
+                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
+                if (isNoLongerABoundary || didInvalidate) {
+                    // We'll be conservative. The only case in which we won't do a full
+                    // reload is if all parent modules are also refresh boundaries.
+                    // In that case we'll add them to the current queue.
+                    var parents = getParents();
+                    if (parents.length === 0) {
+                        // Looks like we bubbled to the root. Can't recover from that.
+                        window.location.reload();
+                        return;
+                    }
+                    return parents;
+                }
+                enqueueUpdate();
+            });
+        }
+    }
+};
+function isReactRefreshBoundary(exports) {
+    if (Refresh.isLikelyComponentType(exports)) return true;
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    return false;
+    var hasExports = false;
+    var areAllExportsComponents = true;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        hasExports = true;
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
+        return false;
+        var exportValue = exports[key];
+        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
+    }
+    return hasExports && areAllExportsComponents;
+}
+function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
+    var prevSignature = getRefreshBoundarySignature(prevExports);
+    var nextSignature = getRefreshBoundarySignature(nextExports);
+    if (prevSignature.length !== nextSignature.length) return true;
+    for(var i = 0; i < nextSignature.length; i++){
+        if (prevSignature[i] !== nextSignature[i]) return true;
+    }
+    return false;
+} // When this signature changes, it's unsafe to stop at this refresh boundary.
+function getRefreshBoundarySignature(exports) {
+    var signature = [];
+    signature.push(Refresh.getFamilyByType(exports));
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return signature;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        if (key === "__esModule") continue;
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        signature.push(key);
+        signature.push(Refresh.getFamilyByType(exportValue));
+    }
+    return signature;
+}
+function registerExportsForReactRefresh(module1) {
+    var exports = module1.exports, id = module1.id;
+    Refresh.register(exports, id + " %exports%");
+    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
+    // (This is important for legacy environments.)
+    return;
+    let isESM = "__esModule" in exports;
+    for(var key in exports){
+        var desc = Object.getOwnPropertyDescriptor(exports, key);
+        if (desc && desc.get && !isESM) continue;
+        var exportValue = exports[key];
+        Refresh.register(exportValue, id + " %exports% " + key);
+    }
+}
+
+},{"9c5971cc28aa46b7":"786KC"}],"jZjPM":[function(require,module,exports) {
 // THIS FILE IS AUTO GENERATED
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
@@ -55056,37 +56398,7 @@ var IconsManifest = [
     }
 ];
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || dest.hasOwnProperty(key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
-
-},{}],"lCI1W":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"lCI1W":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "GenIcon", ()=>GenIcon);
@@ -59864,1168 +61176,6 @@ function getTargetMatch(matches, location) {
     return pathMatches[pathMatches.length - 1];
 } //#endregion
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"bSr8D":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "CLOUD_IMG_URL", ()=>CLOUD_IMG_URL);
-parcelHelpers.export(exports, "FETCH_MENU_URL", ()=>FETCH_MENU_URL);
-parcelHelpers.export(exports, "ALL_RESTAURANTS_API", ()=>ALL_RESTAURANTS_API);
-parcelHelpers.export(exports, "restaurantsList", ()=>restaurantsList);
-const CLOUD_IMG_URL = "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/";
-const FETCH_MENU_URL = "https://www.swiggy.com/dapi/menu/v4/full?lat=17.4016307&lng=78.40060079999999&menuId=";
-const ALL_RESTAURANTS_API = "https://www.swiggy.com/dapi/restaurants/list/v5?lat=17.4016307&lng=78.40060079999999&page_type=DESKTOP_WEB_LISTING";
-const restaurantsList = [
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "474009",
-                    "name": "HARI DOSA",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "hari-dosa-tolichowki-tolichowki",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "ebg0qtutkmzzbsxkd19z",
-                    "address": "Flat No : 101,201 & 301, H H Heights, H-no : 8-1-297/2/e/1, Falcon Valley colony, shaikpet, Mehdipatnam, Hyderabad 500008",
-                    "locality": "Tolichowki",
-                    "areaName": "Tolichowki",
-                    "costForTwo": "12000",
-                    "costForTwoMessage": "₹120 FOR TWO",
-                    "cuisines": [
-                        "Indian",
-                        "South Indian",
-                        "Street Food",
-                        "Beverages",
-                        "Snacks"
-                    ],
-                    "avgRating": 3.8,
-                    "feeDetails": {
-                        "restaurantId": "474009",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 3500
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 3500,
-                        "title": "Delivery Charge",
-                        "amount": "3500"
-                    },
-                    "avgRatingString": "3.8",
-                    "totalRatingsString": "500+",
-                    "sla": {
-                        "deliveryTime": 24,
-                        "minDeliveryTime": 24,
-                        "maxDeliveryTime": 24,
-                        "lastMileTravel": 1.5,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "24 MINS",
-                        "lastMileTravelString": "1.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "50% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "50% off | Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "50% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "474009",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
-                        "restaurant_id": "474009",
-                        "query": "South Indian"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "263535",
-                    "name": "SaiRam Ki Bandi",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "sairam-ki-bandi-madhapur-madhapur",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "rmcl7tixfs9owmfw2f8e",
-                    "address": "plot 17, megana towers, ground floor, sbi bank building,madhapur,Hyderabad , Circle No.11",
-                    "locality": "Circle No.11\n(Serilingampally-1)",
-                    "areaName": "Circle No.11\n(Serilingampally  1)",
-                    "costForTwo": "15000",
-                    "costForTwoMessage": "₹150 FOR TWO",
-                    "cuisines": [
-                        "South Indian",
-                        "Juices"
-                    ],
-                    "avgRating": 3.8,
-                    "feeDetails": {
-                        "restaurantId": "263535",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 6300
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 6300,
-                        "title": "Delivery Charge",
-                        "amount": "6300"
-                    },
-                    "avgRatingString": "3.8",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                        "deliveryTime": 30,
-                        "minDeliveryTime": 30,
-                        "maxDeliveryTime": 30,
-                        "lastMileTravel": 6.7,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "30 MINS",
-                        "lastMileTravelString": "6.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "50% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "50% off | Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "50% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "263535",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
-                        "restaurant_id": "263535",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "95633",
-                    "name": "Rice Bowl",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "rice-bowl-jubliee-hills-jubilee-hills",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "rkes7lgfxlmcdsvwwazv",
-                    "address": "SVM Mall, Rd Number 36, CBI Colony, Jubilee Hills, Hyderabad, Telangana 500033",
-                    "locality": "CBI Colony",
-                    "areaName": "Jubilee Hills",
-                    "costForTwo": "20000",
-                    "costForTwoMessage": "₹200 FOR TWO",
-                    "cuisines": [
-                        "North Indian",
-                        "South Indian"
-                    ],
-                    "avgRating": 4,
-                    "feeDetails": {
-                        "restaurantId": "95633",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 4900
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 4900,
-                        "title": "Delivery Charge",
-                        "amount": "4900"
-                    },
-                    "avgRatingString": "4.0",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                        "deliveryTime": 21,
-                        "minDeliveryTime": 21,
-                        "maxDeliveryTime": 21,
-                        "lastMileTravel": 4.6,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "21 MINS",
-                        "lastMileTravelString": "4.5 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "60% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "60% off | Use TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {
-                        "textExtendedBadges": [
-                            {
-                                "iconId": "guiltfree/GF_Logo_android_3x",
-                                "shortDescription": "options available",
-                                "fontColor": "#7E808C"
-                            }
-                        ]
-                    },
-                    "aggregatedDiscountInfoV2": {
-                        "header": "60% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "95633",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
-                        "restaurant_id": "95633",
-                        "query": "South Indian"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "501592",
-                    "name": "VARALAKSHMI PURE VEG TIFFINS",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "varalakshmi-pure-veg-tiffins-ameerpet-ameerpet",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "iw3lszn5gljakzvu2ins",
-                    "address": "41, East Srinivas Nagar Colony, Srinivasa Nagar, Ameerpet, Hyderabad, Telangana 500038, India",
-                    "locality": "Srinivasa Nagar",
-                    "areaName": "Ameerpet",
-                    "costForTwo": "10000",
-                    "costForTwoMessage": "₹100 FOR TWO",
-                    "cuisines": [
-                        "South Indian"
-                    ],
-                    "avgRating": 3.9,
-                    "feeDetails": {
-                        "restaurantId": "501592",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 7900
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 7900,
-                        "title": "Delivery Charge",
-                        "amount": "7900"
-                    },
-                    "avgRatingString": "3.9",
-                    "totalRatingsString": "100+",
-                    "sla": {
-                        "deliveryTime": 30,
-                        "minDeliveryTime": 30,
-                        "maxDeliveryTime": 30,
-                        "lastMileTravel": 8.7,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "30 MINS",
-                        "lastMileTravelString": "8.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "50% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "50% off | Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "50% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "501592",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "restaurant_id": "501592",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "358090",
-                    "name": "Muddapappu Avakai.com",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "muddapappu-avakai.com-ameerpet-ameerpet",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "wsh5jrouypz49paiq0p3",
-                    "address": "H No:7-1-100/2/A, Ameerpet, Near Gurudwara, Hyderabad, Circle No. 10(Old MCH Circle-V) Khairatabad, Hyderabad - Central Zone, Telangana - 500016",
-                    "locality": "Ameerpet",
-                    "areaName": "Ameerpet",
-                    "costForTwo": "30000",
-                    "costForTwoMessage": "₹300 FOR TWO",
-                    "cuisines": [
-                        "South Indian",
-                        "Indian",
-                        "Andhra",
-                        "Telangana",
-                        "Beverages"
-                    ],
-                    "avgRating": 4.1,
-                    "feeDetails": {
-                        "restaurantId": "358090",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 7900
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 7900,
-                        "title": "Delivery Charge",
-                        "amount": "7900"
-                    },
-                    "avgRatingString": "4.1",
-                    "totalRatingsString": "100+",
-                    "sla": {
-                        "deliveryTime": 32,
-                        "minDeliveryTime": 32,
-                        "maxDeliveryTime": 32,
-                        "lastMileTravel": 8.7,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "32 MINS",
-                        "lastMileTravelString": "8.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "50% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "50% off | Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "50% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_5",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "358090",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "restaurant_id": "358090",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "378922",
-                    "name": "Muddapappu Avakaya & More",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "muddapappu-avakai-n-more-gachibowli-gachibowli",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "treixr81lhw9tnpyzphi",
-                    "address": "8-2-95/6/2/4, Rajiv gandhi Nagar, Gachibowli, Hyderabad, Telangana 500032",
-                    "locality": "Rajiv Gandhi Nagar",
-                    "areaName": "Gachibowli",
-                    "costForTwo": "40000",
-                    "costForTwoMessage": "₹400 FOR TWO",
-                    "cuisines": [
-                        "Andhra",
-                        "South Indian",
-                        "Biryani"
-                    ],
-                    "avgRating": 3.8,
-                    "feeDetails": {
-                        "restaurantId": "378922",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 6300
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 6300,
-                        "title": "Delivery Charge",
-                        "amount": "6300"
-                    },
-                    "avgRatingString": "3.8",
-                    "totalRatingsString": "500+",
-                    "sla": {
-                        "deliveryTime": 32,
-                        "minDeliveryTime": 32,
-                        "maxDeliveryTime": 32,
-                        "lastMileTravel": 6.8,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "32 MINS",
-                        "lastMileTravelString": "6.8 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "50% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "50% off | Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "50% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "378922",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "restaurant_id": "378922",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "227608",
-                    "name": "SRI BALAJI TIFFINS ",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "sri-balaji-tiffin-centre-charminar-charminar",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "otcjnqd8s7cxy1z6qcmf",
-                    "address": "Ayyapa society, H No:1-98/90/2, Madhapur Mega Hills, opposite to Annapurna take away, Guttala Begumpet, Hyderabad, Serlingampally Circle No 20,Hyderabad,Telangana-500081",
-                    "locality": "Guttala Begumpet",
-                    "areaName": "Madhapur",
-                    "costForTwo": "15000",
-                    "costForTwoMessage": "₹150 FOR TWO",
-                    "cuisines": [
-                        "South Indian"
-                    ],
-                    "avgRating": 3.3,
-                    "feeDetails": {
-                        "restaurantId": "227608",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 6300
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 6300,
-                        "title": "Delivery Charge",
-                        "amount": "6300"
-                    },
-                    "avgRatingString": "3.3",
-                    "totalRatingsString": "100+",
-                    "sla": {
-                        "deliveryTime": 35,
-                        "minDeliveryTime": 35,
-                        "maxDeliveryTime": 35,
-                        "lastMileTravel": 6.7,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "35 MINS",
-                        "lastMileTravelString": "6.6 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "50% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "50% off | Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "50% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "50% off up to ₹100 | Use code WELCOME50",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "227608",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
-                        "restaurant_id": "227608",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "146003",
-                    "name": "Andhra Rice Boxes",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "andhra-rice-boxes-na-dummy-inbound-area",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "icmlmukpt5qqrnr8yh9u",
-                    "address": "PNo.823,Road no.45,100 ft road,opposite offline store,Ayyapa Society,khanamet village,Madhapur,Serlingampally Circle No.2,Hyderabad,Telangana,500081",
-                    "locality": "Ayyappa society",
-                    "areaName": "Chanda Naik Nagar",
-                    "costForTwo": "40000",
-                    "costForTwoMessage": "₹400 FOR TWO",
-                    "cuisines": [
-                        "Indian"
-                    ],
-                    "avgRating": 3.3,
-                    "feeDetails": {
-                        "restaurantId": "146003",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 7000
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 7000,
-                        "title": "Delivery Charge",
-                        "amount": "7000"
-                    },
-                    "avgRatingString": "3.3",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                        "deliveryTime": 30,
-                        "minDeliveryTime": 30,
-                        "maxDeliveryTime": 30,
-                        "lastMileTravel": 7.9,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "30 MINS",
-                        "lastMileTravelString": "7.9 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "60% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "60% off | Use TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "60% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "146003",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "restaurant_id": "146003",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352",
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6"
-                    }
-                }
-            }
-        }
-    },
-    {
-        "card": {
-            "card": {
-                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
-                "info": {
-                    "id": "519641",
-                    "name": "SRI ANDHRA PULAV.COM",
-                    "city": "3",
-                    "slugs": {
-                        "restaurant": "sri-andhra-pulav.com-ameerpet-ameerpet",
-                        "city": "hyderabad"
-                    },
-                    "cloudinaryImageId": "unwfy54ezcppqlym9eok",
-                    "address": "H NO 36/3RT 7-1-621/105, SR NAGAR, Khairatabad",
-                    "locality": "Khairatabad",
-                    "areaName": "Ameerpet",
-                    "costForTwo": "30000",
-                    "costForTwoMessage": "₹300 FOR TWO",
-                    "cuisines": [
-                        "Andhra",
-                        "South Indian",
-                        "Biryani",
-                        "Chinese"
-                    ],
-                    "avgRating": 3.9,
-                    "feeDetails": {
-                        "restaurantId": "519641",
-                        "fees": [
-                            {
-                                "name": "BASE_DISTANCE",
-                                "fee": 7900
-                            },
-                            {
-                                "name": "BASE_TIME"
-                            },
-                            {
-                                "name": "ANCILLARY_SURGE_FEE"
-                            }
-                        ],
-                        "totalFee": 7900,
-                        "title": "Delivery Charge",
-                        "amount": "7900"
-                    },
-                    "avgRatingString": "3.9",
-                    "totalRatingsString": "1K+",
-                    "sla": {
-                        "deliveryTime": 32,
-                        "minDeliveryTime": 32,
-                        "maxDeliveryTime": 32,
-                        "lastMileTravel": 8,
-                        "serviceability": "SERVICEABLE",
-                        "rainMode": "RAIN_MODE_NONE",
-                        "slaString": "32 MINS",
-                        "lastMileTravelString": "8.0 km",
-                        "iconType": "ICON_TYPE_EMPTY"
-                    },
-                    "availability": {
-                        "nextCloseMessage": "Closes soon",
-                        "opened": true,
-                        "restaurantClosedMeta": {}
-                    },
-                    "aggregatedDiscountInfo": {
-                        "header": "60% off",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "60% off | Use TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "badges": {},
-                    "aggregatedDiscountInfoV2": {
-                        "header": "60% OFF",
-                        "shortDescriptionList": [
-                            {
-                                "meta": "Use TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ],
-                        "descriptionList": [
-                            {
-                                "meta": "60% off up to ₹120 | Use code TRYNEW",
-                                "discountType": "Percentage",
-                                "operationType": "RESTAURANT"
-                            }
-                        ]
-                    },
-                    "ratingSlab": "RATING_SLAB_4",
-                    "orderabilityCommunication": {
-                        "title": {},
-                        "subTitle": {},
-                        "message": {},
-                        "customIcon": {}
-                    },
-                    "cartOrderabilityNudgeBanner": {
-                        "parameters": {},
-                        "presentation": {}
-                    }
-                },
-                "analytics": {
-                    "screenName": "explore",
-                    "context": '{"tid":"undefined","grid":"346f90ba-48b1-4c11-b0c8-272d82959b85","queryUniqueId":"98bf5fd8-7edb-55e6-e2c4-e578bcb4bac8","query":"South Indian"}',
-                    "objectValue": "519641",
-                    "clickObjectName": "click-restaurant"
-                },
-                "ctaWithParams": {
-                    "link": "swiggy://menu",
-                    "type": "DEEPLINK",
-                    "params": {
-                        "source": "SEARCH",
-                        "isSld": "false",
-                        "sourceRequestId": "5fd792fb-8007-4791-8e98-aed47e8008d6",
-                        "restaurant_id": "519641",
-                        "query": "South Indian",
-                        "sourceSessionId": "4qp2ff67-9561-4b7a-ae31-9ecf538cd352"
-                    }
-                }
-            }
-        }
-    }
-];
-
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"eUWz6":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$d9ab = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
@@ -61062,141 +61212,7 @@ $RefreshReg$(_c, "Shimmer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"km3Ru":[function(require,module,exports) {
-"use strict";
-var Refresh = require("9c5971cc28aa46b7");
-function debounce(func, delay) {
-    var args;
-    {
-        let timeout = undefined;
-        let lastTime = 0;
-        return function(args) {
-            // Call immediately if last call was more than the delay ago.
-            // Otherwise, set a timeout. This means the first call is fast
-            // (for the common case of a single update), and subsequent updates
-            // are batched.
-            let now = Date.now();
-            if (now - lastTime > delay) {
-                lastTime = now;
-                func.call(null, args);
-            } else {
-                clearTimeout(timeout);
-                timeout = setTimeout(function() {
-                    timeout = undefined;
-                    lastTime = Date.now();
-                    func.call(null, args);
-                }, delay);
-            }
-        };
-    }
-}
-var enqueueUpdate = debounce(function() {
-    Refresh.performReactRefresh();
-}, 30); // Everthing below is either adapted or copied from
-// https://github.com/facebook/metro/blob/61de16bd1edd7e738dd0311c89555a644023ab2d/packages/metro/src/lib/polyfills/require.js
-// MIT License - Copyright (c) Facebook, Inc. and its affiliates.
-module.exports.prelude = function(module1) {
-    window.$RefreshReg$ = function(type, id) {
-        Refresh.register(type, module1.id + " " + id);
-    };
-    window.$RefreshSig$ = Refresh.createSignatureFunctionForTransform;
-};
-module.exports.postlude = function(module1) {
-    if (isReactRefreshBoundary(module1.exports)) {
-        registerExportsForReactRefresh(module1);
-        if (module1.hot) {
-            module1.hot.dispose(function(data) {
-                if (Refresh.hasUnrecoverableErrors()) window.location.reload();
-                data.prevExports = module1.exports;
-            });
-            module1.hot.accept(function(getParents) {
-                var prevExports = module1.hot.data.prevExports;
-                var nextExports = module1.exports; // Since we just executed the code for it, it's possible
-                // that the new exports make it ineligible for being a boundary.
-                var isNoLongerABoundary = !isReactRefreshBoundary(nextExports); // It can also become ineligible if its exports are incompatible
-                // with the previous exports.
-                // For example, if you add/remove/change exports, we'll want
-                // to re-execute the importing modules, and force those components
-                // to re-render. Similarly, if you convert a class component
-                // to a function, we want to invalidate the boundary.
-                var didInvalidate = shouldInvalidateReactRefreshBoundary(prevExports, nextExports);
-                if (isNoLongerABoundary || didInvalidate) {
-                    // We'll be conservative. The only case in which we won't do a full
-                    // reload is if all parent modules are also refresh boundaries.
-                    // In that case we'll add them to the current queue.
-                    var parents = getParents();
-                    if (parents.length === 0) {
-                        // Looks like we bubbled to the root. Can't recover from that.
-                        window.location.reload();
-                        return;
-                    }
-                    return parents;
-                }
-                enqueueUpdate();
-            });
-        }
-    }
-};
-function isReactRefreshBoundary(exports) {
-    if (Refresh.isLikelyComponentType(exports)) return true;
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    return false;
-    var hasExports = false;
-    var areAllExportsComponents = true;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        hasExports = true;
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) // Don't invoke getters for CJS as they may have side effects.
-        return false;
-        var exportValue = exports[key];
-        if (!Refresh.isLikelyComponentType(exportValue)) areAllExportsComponents = false;
-    }
-    return hasExports && areAllExportsComponents;
-}
-function shouldInvalidateReactRefreshBoundary(prevExports, nextExports) {
-    var prevSignature = getRefreshBoundarySignature(prevExports);
-    var nextSignature = getRefreshBoundarySignature(nextExports);
-    if (prevSignature.length !== nextSignature.length) return true;
-    for(var i = 0; i < nextSignature.length; i++){
-        if (prevSignature[i] !== nextSignature[i]) return true;
-    }
-    return false;
-} // When this signature changes, it's unsafe to stop at this refresh boundary.
-function getRefreshBoundarySignature(exports) {
-    var signature = [];
-    signature.push(Refresh.getFamilyByType(exports));
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return signature;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        if (key === "__esModule") continue;
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        signature.push(key);
-        signature.push(Refresh.getFamilyByType(exportValue));
-    }
-    return signature;
-}
-function registerExportsForReactRefresh(module1) {
-    var exports = module1.exports, id = module1.id;
-    Refresh.register(exports, id + " %exports%");
-    if (exports == null || typeof exports !== "object") // Exit if we can't iterate over exports.
-    // (This is important for legacy environments.)
-    return;
-    let isESM = "__esModule" in exports;
-    for(var key in exports){
-        var desc = Object.getOwnPropertyDescriptor(exports, key);
-        if (desc && desc.get && !isESM) continue;
-        var exportValue = exports[key];
-        Refresh.register(exportValue, id + " %exports% " + key);
-    }
-}
-
-},{"9c5971cc28aa46b7":"786KC"}],"9L4Sx":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"9L4Sx":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "filterData", ()=>filterData);
@@ -61328,7 +61344,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../utils/UserContext":"7To3X","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7To3X":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../utils/UserContext":"7To3X"}],"7To3X":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$6a66 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -61548,7 +61564,7 @@ $RefreshReg$(_c, "Title");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Assests/homefood.jpg":"6wbOg","react-router-dom":"9xmpe","../utils/useOnline":"bc9W5","../utils/UserContext":"7To3X","react-redux":"bdVon","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"6wbOg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../Assests/homefood.jpg":"6wbOg","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react-router-dom":"9xmpe","../utils/useOnline":"bc9W5","../utils/UserContext":"7To3X","react-redux":"bdVon"}],"6wbOg":[function(require,module,exports) {
 module.exports = require("f152467293dc8671").getBundleURL("UckoE") + "homefood.5ebf9bc4.jpg" + "?" + Date.now();
 
 },{"f152467293dc8671":"lgJ39"}],"lgJ39":[function(require,module,exports) {
